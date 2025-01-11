@@ -12,10 +12,21 @@ body {
 
 /* Shared style */
 
+section {
+    margin-bottom: 80px;
+}
+
 .section-title {
     color: rgb(14, 14, 14);
-    font-size: 56px;
+    font-size: 40px;
     font-weight: 700;
+}
+
+.section-subtitle {
+    padding: 12px 0px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .btn-primary {
@@ -25,12 +36,45 @@ body {
     margin: 24px 0px;
     padding: 17px 34px 17px 34px;
     border: none;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .btn-primary:hover {
     cursor: pointer;
-    background: rgb(1, 94, 71);
+    background: rgb(5, 67, 51);
+}
+
+.btn-2 {
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
     color: white;
+    margin: 24px 0px;
+    padding: 17px 34px 17px 34px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-2:hover {
+    cursor: pointer;
+    background: rgb(12, 83, 204);
+}
+
+.btn-3 {
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    color: white;
+    margin: 24px 0px;
+    padding: 17px 34px 17px 34px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-3:hover {
+    cursor: pointer;
+    background: rgb(255, 174, 0);
 }
 
 /* Nav bar */
@@ -81,10 +125,75 @@ main {
     background: rgb(198, 228, 214);
 }
 
-.banner-content {}
+.banner-title {
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    text-align: left;
+}
 
 .bannar-subtitle {
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
     font-weight: 500;
 }
+
+/* The Vision of Future */
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24;
+    padding: 0px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 32px;
+    margin: 0px 24px;
+}
+
+.card-1 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.card-2 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+
+.card-3 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12;
+    padding: 0px;
+    margin: 24px 0px;
+}
+
+.card-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
