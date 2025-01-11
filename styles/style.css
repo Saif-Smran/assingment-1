@@ -262,9 +262,10 @@ main {
     padding: 0px;
 }
 
-.donate > p{
+.donate>p {
     text-align: center;
 }
+
 .donate-cards {
     display: flex;
     flex-direction: row;
@@ -274,10 +275,11 @@ main {
     padding: 0px;
 }
 
-.c-1{
+.c-1 {
     background: rgb(255, 255, 255);
 }
-.c-2{
+
+.c-2 {
     background: rgb(198, 228, 214);
 }
 
@@ -307,3 +309,54 @@ main {
     padding: 20px 40px 20px 40px;
 }
 
+/* Newsletter Section */
+
+.nletter {
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px 80px 100px;
+}
+
+.nletter-content {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.nletter-content>p {
+    text-align: center;
+}
+
+form {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+form input[type="email"] {
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    padding: 18px 40px 18px 40px;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    width: 80%;
+}
+
+form input[type="submit"] {
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    color: white;
+    padding: 18px 40px 18px 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
